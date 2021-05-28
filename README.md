@@ -7,13 +7,11 @@ Short introduction to project assigment.
   Link to Demo Video
 </p>
 
-> This work was done by Autor 1, Autor2, Autor 3 during the IW276 Autonome Systeme Labor at the Karlsruhe University of Applied Sciences (Hochschule Karlruhe - Technik und Wirtschaft) in WS 2020 / 2021. 
+> This work was done by Atanas Atanasov, Nikolay Dimitrov, Stefan Hristov during the IW276 Autonome Systeme Labor at the Karlsruhe University of Applied Sciences (Hochschule Karlruhe - Technik und Wirtschaft) in SS2021.
 
 ## Table of Contents
 
 * [Requirements](#requirements)
-* [Prerequisites](#prerequisites)
-* [Pre-trained model](#pre-trained-model)
 * [Running](#running)
 * [Acknowledgments](#acknowledgments)
 
@@ -21,26 +19,21 @@ Short introduction to project assigment.
 * Python 3.6 (or above)
 * OpenCV 4.1 (or above)
 * Jetson Nano
-* Jetpack 4.4
+* Jetpack 4.5
+* Tensorflow 2.3 (or above)
 > [Optional] ...
-
-## Prerequisites
-1. Install requirements:
-```
-pip install -r requirements.txt
-```
-
-## Pre-trained models <a name="pre-trained-models"/>
-
-Pre-trained model is available at pretrained-models/
 
 ## Running
 
-To run the demo, pass path to the pre-trained checkpoint and camera id (or path to video file):
+Open the terminal and navigate to the project folder. Then execute the following commands:
+
 ```
-python src/demo.py --model model/student-jetson-model.pth --video 0
-```
-> Additional comment about the demo.
+sh build-docker-image.sh
+
+sudo docker run -it as15_my_img
+
+sh run-tracker.sh
+``` 
 
 ## Docker
 HOW TO

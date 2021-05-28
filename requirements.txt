@@ -1,0 +1,8 @@
+opencv-python
+lxml
+tqdm
+absl-py
+easydict
+pillow
+numpy
+scipy
