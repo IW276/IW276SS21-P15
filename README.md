@@ -36,7 +36,16 @@ sh run-tracker.sh
 ``` 
 
 ## Docker
-HOW TO
+
+### How to export the images to the host
+
+``` 
+// get container id
+sudo docker ps -a 
+
+// User example - p15
+sudo docker cp {CONTAINERID}:/Yolov4_Deepsort-Person-Tracking/outputs /home/{USER}
+```
 
 ## Acknowledgments
 
