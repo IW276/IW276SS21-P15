@@ -35,7 +35,7 @@ RUN pip3 install -U \
 WORKDIR /
 RUN git clone https://github.com/IW276/IW276SS21-P15.git && cd IW276SS21-P15 && git checkout master
 
-WORKDIR /Yolov4_Deepsort-Person-Tracking/data/pictures/
+WORKDIR /IW276SS21-P15/data/pictures/
 # MOT20-04
 # RUN wget "https://www.dropbox.com/s/ta98ehmt7c4chvu/images_all.zip"
 # MOT20-07
