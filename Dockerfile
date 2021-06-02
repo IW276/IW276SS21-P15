@@ -33,7 +33,7 @@ RUN pip3 install -U \
     rm -rf ~/.cache/pip
 
 WORKDIR /
-RUN git clone https://github.com/niki7025/Yolov4_Deepsort-Person-Tracking.git && cd Yolov4_Deepsort-Person-Tracking && git checkout atanas_docker_final
+RUN git clone https://github.com/IW276/IW276SS21-P15.git && cd IW276SS21-P15 && git checkout master
 
 WORKDIR /Yolov4_Deepsort-Person-Tracking/data/pictures/
 # MOT20-04
