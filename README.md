@@ -1,11 +1,10 @@
-# IW276SS21P15_Person_Tracking
+# IW276SS21P15 Person Tracking
 
 The goal of the project is to create a model that is able to detect and track people throughout consecutive frames. 
 Detection is visualised through bounding boxes and tracking is shown by unique ids for every person.
 
 <p align="center">
    <img src="detektor_tracker.jpg">
-
 </p>
 
 > This work was done by Atanas Atanasov, Nikolay Dimitrov, Stefan Hristov during the IW276 Autonome Systeme Labor at the Karlsruhe University of Applied Sciences (Hochschule Karlruhe - Technik und Wirtschaft) in SS2021.
