@@ -1,4 +1,4 @@
-# Project-Template for IW276 Autonome Systeme Labor
+# IW276SS21P15_Person_Tracking
 
 The goal of the project is to create a model that is able to detect and track people throughout consecutive frames. 
 Detection is visualised through bounding boxes and tracking is shown by unique ids for every person.
@@ -23,6 +23,8 @@ Detection is visualised through bounding boxes and tracking is shown by unique i
 * Jetpack 4.5
 * Tensorflow 2.3 (or above)
 
+
+
 ## Running
 
 Open the terminal and navigate to the project folder. Then execute the following commands:
@@ -44,7 +46,7 @@ from the container to the host directory the following steps should be followed.
 The container id should be found and the commands bellow should be executed.
 
 ``` 
-// Find the container id
+// Find the container id (container name - my_container_as_15)
 sudo docker ps -a 
 
 // Copy the images from the docker container to the host directory
