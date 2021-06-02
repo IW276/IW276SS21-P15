@@ -1,10 +1,11 @@
 # Project-Template for IW276 Autonome Systeme Labor
 
-Short introduction to project assigment.
+The goal of the project is to create a model that is able to detect and track people throughout consecutive frames. 
+Detection is visualised through bounding boxes and tracking is shown by unique ids for every person.
 
 <p align="center">
-  Screenshot / GIF <br />
-  Link to Demo Video
+   <img src="detektor_tracker.jpg">
+
 </p>
 
 > This work was done by Atanas Atanasov, Nikolay Dimitrov, Stefan Hristov during the IW276 Autonome Systeme Labor at the Karlsruhe University of Applied Sciences (Hochschule Karlruhe - Technik und Wirtschaft) in SS2021.
@@ -21,7 +22,6 @@ Short introduction to project assigment.
 * Jetson Nano
 * Jetpack 4.5
 * Tensorflow 2.3 (or above)
-> [Optional] ...
 
 ## Running
 
@@ -39,19 +39,25 @@ sh run-tracker.sh
 
 ### How to export the images to the host
 
+When the detection and tracking is executed, the images are saved in the docker container. To save the images
+from the container to the host directory the following steps should be followed.
+The container id should be found and the commands bellow should be executed.
+
 ``` 
-// get container id
+// Find the container id
 sudo docker ps -a 
 
-// User example - p15
+// Copy the images from the docker container to the host directory
 sudo docker cp {CONTAINERID}:/Yolov4_Deepsort-Person-Tracking/outputs /home/{USER}
 ```
 
 ## Acknowledgments
 
 This repo is based on
-  - [Source 1](https://github.com/)
-  - [Source 2](https://github.com/)
+  - [YOLOv4 Deeosort](https://github.com/theAIGuysCode/yolov4-deepsort)
+  - [MOT20 Challenge](https://motchallenge.net/data/MOT20/)
+  - [IW276WS20-P10](https://github.com/IW276/IW276WS20-P10)
+
 
 Thanks to the original authors for their work!
 
