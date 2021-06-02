@@ -49,7 +49,7 @@ The container id should be found and the commands bellow should be executed.
 sudo docker ps -a 
 
 // Copy the images from the docker container to the host directory
-sudo docker cp {CONTAINERID}:/Yolov4_Deepsort-Person-Tracking/outputs /home/{USER}
+sudo docker cp {CONTAINERID}:/IW276SS21-P15/outputs /home/{USER}
 ```
 
 ## Acknowledgments
