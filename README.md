@@ -58,6 +58,8 @@ This repo is based on
   - [YOLOv4 Deeosort](https://github.com/theAIGuysCode/yolov4-deepsort)
   - [MOT20 Challenge](https://motchallenge.net/data/MOT20/)
   - [IW276WS20-P10](https://github.com/IW276/IW276WS20-P10)
+  - [darknet](https://github.com/AlexeyAB/darknet)
+
 
 
 Thanks to the original authors for their work!
